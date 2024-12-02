@@ -18,6 +18,7 @@
                                            "http://localhost:5173");
                         //policy.WithOrigins("https://localhost:7293",
                         //                  "http://localhost:7293");
+                        policy.AllowAnyOrigin();
                         policy.AllowAnyMethod();
                         policy.AllowAnyHeader();
                     });
